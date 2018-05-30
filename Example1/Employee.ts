@@ -1,8 +1,8 @@
 export class Employee{
-    name: string;
-    position: string;
-    address: string;
-    salary: number;
+    private name: string;
+    private position: string;
+    private address: string;
+    private salary: number;
 
     // Getter
     public getName(){
